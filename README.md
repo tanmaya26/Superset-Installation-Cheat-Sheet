@@ -48,7 +48,7 @@ fabmanager create-admin --app superset
 NOTE:
 >If following error occurs in above step: "Was unable to import superset Error: cannot import name may_box_datetimelike", then it could be because a conflicting version of Pandas. Do the following:
 >>sudo pip uninstall pandas <br>
->>sudo pip install pandas==0.23.4
+>>sudo pip install pandas==0.23.4<br>
 >After reinstalling pandas, repeat above step.<br>
 
 Initialize the database
