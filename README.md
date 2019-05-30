@@ -1,7 +1,7 @@
 # Superset-Installation-Cheat-Sheet
 Steps to install Superset on Amazon EC2 Linux version 1 machine
 
->NOTE: As of May 2019, Superset works on python ~= 3.6 versions. You will find the following error if you have python >versions < 3.6.
+>NOTE: As of May 2019, Superset works on python ~= 3.6 versions. You will find the following error if you have python versions < 3.6.
 >ERROR: Complete output from command python setup.py egg_info:
 >ERROR: Sorry, Python < 3.6 is not supported
 >So, make sure you use the right version by running the command: python -V
