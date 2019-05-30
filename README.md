@@ -45,19 +45,17 @@ Add admin by username, first name, last name and password. Make sure you remembe
 fabmanager create-admin --app superset
 ```
 
->NOTE:
+NOTE:
 >If following error occurs in above step: "Was unable to import superset Error: cannot import name may_box_datetimelike", then it could be because a conflicting version of Pandas. Do the following:
-
 >>sudo pip uninstall pandas <br>
 >>sudo pip install pandas==0.23.4
-
 >After reinstalling pandas, repeat above step.<br>
 
 Initialize the database
 ```
 superset db upgrade
 ```
->NOTE:
+NOTE:
 >If this step fails with following: "sqlalchemy.exc.InvalidRequestError: Can't determine which FROM clause to join from", then try with the following command:<br>
 >>sudo pip install sqlalchemy==1.2.18<br>
 >then run again<br>
