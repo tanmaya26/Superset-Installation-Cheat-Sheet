@@ -20,7 +20,7 @@ sudo yum install python36 -y
 ### Add below lines to ~/.bashrc
 ```
 export PATH=/usr/local/bin:$PATH
-alias python=python36 <br>
+alias python=python36
 ```
 ```
 source ~/.bashrc
