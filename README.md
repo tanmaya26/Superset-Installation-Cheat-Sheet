@@ -59,6 +59,7 @@ NOTE:
 >If this step fails with following: "sqlalchemy.exc.InvalidRequestError: Can't determine which FROM clause to join from", then try with the following command:<br>
 >>sudo pip install sqlalchemy==1.2.18<br>
 >then run again<br>
+
 Load some data to play with
 ```
 superset load_examples
@@ -69,7 +70,12 @@ superset init
 ```
 Start the web server on port 8088, use -p to bind to another port
 ```
-superset runserver -p 8080
+superset runserver -p 8088
+```
+Connect to URL after configuring port on EC2 settings
+
+```
+http://<EC2 public DNS>:8088/
 ```
 
 
