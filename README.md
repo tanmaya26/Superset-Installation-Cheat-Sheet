@@ -37,6 +37,21 @@ sudo yum install python36-devel -y
 sudo cp /usr/local/bin/pip /usr/sbin/ 
 ```
 ### Following steps will install Superset
+Install Superset inside virtualenv
+
+```
+sudo pip install virtualenv
+```
+
+```
+python3 -m venv venv
+```
+
+Start/Activate virtualenv
+```
+. venv/bin/activate
+```
+Now, install superset
 ```
 sudo pip install superset
 ```
